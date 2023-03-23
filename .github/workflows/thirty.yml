@@ -15,3 +15,8 @@ jobs:
           pwd
           node -v
           ls -a
+      - name: Python command
+        run: |
+          import platform
+          print (platform.processor())
+        shell: python
