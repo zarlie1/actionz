@@ -8,8 +8,6 @@ jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actionz/checkout@v1
       - name: echo string
         run: echo "Hello"
       - name: Multi line string
