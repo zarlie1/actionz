@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: set terraform
+      - name: Set Terraform
         uses: hashicop/setup-terraform@v2
         with:
           terraform_version: 1.1.9
